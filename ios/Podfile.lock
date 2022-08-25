@@ -4,6 +4,7 @@ PODS:
     - CocoaLumberjack/Core (= 3.7.4)
   - CocoaLumberjack/Core (3.7.4)
   - DoubleConversion (1.1.6)
+  - Fattmerchant (2.1.0)
   - FBLazyVector (0.63.2)
   - FBReactNativeSpec (0.63.2):
     - Folly (= 2020.01.13.00)
@@ -257,6 +258,7 @@ PODS:
 
 DEPENDENCIES:
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - Fattmerchant
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
   - FBReactNativeSpec (from `../node_modules/react-native/Libraries/FBReactNativeSpec`)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
@@ -291,6 +293,7 @@ SPEC REPOS:
   trunk:
     - boost-for-react-native
     - CocoaLumberjack
+    - Fattmerchant
 
 EXTERNAL SOURCES:
   DoubleConversion:
@@ -354,6 +357,7 @@ SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
   DoubleConversion: cde416483dac037923206447da6e1454df403714
+  Fattmerchant: 6729a90a9463f23fd910c56050051c5d03cae41d
   FBLazyVector: 3ef4a7f62e7db01092f9d517d2ebc0d0677c4a37
   FBReactNativeSpec: dc7fa9088f0f2a998503a352b0554d69a4391c5a
   Folly: b73c3869541e86821df3c387eb0af5f65addfab4
@@ -382,6 +386,6 @@ SPEC CHECKSUMS:
   RNBackgroundGeolocation: 4004fedfddd643da3a316cbe16fbfff1967e47b4
   Yoga: 7740b94929bbacbddda59bf115b5317e9a161598
 
-PODFILE CHECKSUM: cebb7299c86524a5d07c4c1cc97072edf3f20088
+PODFILE CHECKSUM: 768637462684ce2aa194a7aa2a478252c6bdf18a
 
 COCOAPODS: 1.10.0
